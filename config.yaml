@@ -1,0 +1,103 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "Jeet Desai"
+theme: "PaperMod"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog
+    #   weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    # - identifier: search
+    #   name: Search
+    #   url: /search
+    #   weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  #
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Jeet Desai"
+    subtitle: "Hi 👋, I'm Jeet, an **MS in Computer Science** student at [**Loyola Marymount University**](https://www.lmu.edu/). I'm passionate about **Software Engineering**. Along with my grad studies, I've been working as a **Research Assistant** at [**LMU**](https://www.lmu.edu/). Before joining the MSCS program, I worked as a **Software Engineer** at [**Concepts iConnect**](https://www.flinnt.com/), a EdTech startup."
+    imageUrl: "home/IMG_6664-modified.png"
+    imageWidth: 250
+    imageHeight: 250
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:jeetdesai25@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/jeet-desai-/"
+    - name: "github"
+      url: "https://github.com/JEETDESAI25"
+    # - name: "youtube"
+    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
+    - name: "cv"
+      url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
