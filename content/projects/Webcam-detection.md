@@ -12,7 +12,5 @@ cover:
 ### 🔗 [GitHub](https://github.com/JEETDESAI25/email-webcam-detection)
 
 ## Description
-- In this project, I have build the program which starts the computer webcam and it waits for objects to enter the view. And if the new object enters the view, The Program will send you the **Email**.
-
-- In that email, the object that entered the view **attached** as a picture.
+- Designed and implemented a program utilizing computer vision to detect new objects entering the view of a webcam. The program then sends an email with an attached picture of the object, demonstrating proficiency in both computer vision and email automation.
 

@@ -51,7 +51,7 @@ params:
   profileMode:
     enabled: true
     title: "Jeet Desai"
-    subtitle: "Hi 👋, I'm Jeet, an **MS in Computer Science** student at [**Loyola Marymount University**](https://www.lmu.edu/). I'm passionate about **Software Engineering**. Along with my grad studies, I've been working as a **Research Assistant** at [**LMU**](https://www.lmu.edu/). Before joining the MSCS program, I worked as a **Software Engineer** at [**Concepts iConnect**](https://www.flinnt.com/), a EdTech startup."
+    subtitle: "Greetings👋! I am Jeet, a graduate student pursuing an MS in Computer Science at [*Loyola Marymount University*](https://www.lmu.edu/). With a passion for software engineering, I have been honing my technical skills through my studies as well as my work as a Research Assistant at the university. Prior to starting my MS program, I gained valuable experience in the industry as a Software Engineer at [*Concepts iConnect*](https://www.flinnt.com/), a EdTech startup. These experiences have equipped me with a strong foundation in computer science, a commitment to continued learning, and the ability to work effectively in a team environment. I am eager to bring my skills and experiences to a new opportunity and am confident that I would be a valuable addition to any organization"
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
@@ -77,7 +77,7 @@ params:
     # - name: "youtube"
     #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+      url: "https://drive.google.com/file/d/19EffTxY2lG8KYhIskkkpoCEMicVr_Iqp/view?usp=sharing"
 
   # text search
   fuseOpts:

@@ -10,6 +10,7 @@ weight: 301
 
 ### Description
 
-- Creating **cross-platform** mobile application for an on-going research project.
-- Using **React native** to build the application.
-- The app will give food **recommendation** according to your needs.
+- Designing and developing a cross-platform mobile application using React Native to provide personalized food recommendations with a focus on adequate nutrient intake. 
+- This project showcased expertise in mobile app development and a deep understanding of nutrition principles. 
+- The user-friendly app provides personalized recommendations, helping individuals make healthier food choices and leading a more balanced and nutritious lifestyle. 
+- This project showcases not only technical proficiency in software development but also a commitment to promoting health and wellness.

@@ -10,8 +10,6 @@ weight: 304
 
 ## Description
 
-- Contributed to the _Development team_ focusing on improving website features.
-
-- Build _reusable_ code and libraries for future use and ensured all user input is validated before back-end submission.
-
-- Learned to implement and work on _group projects_ using Git and IDE's
+- Played a key role in contributing to the development team with a focus on improving website features and functionality.
+- Utilized coding skills to build reusable code and libraries, ensuring the efficient and secure processing of user input.
+- Additionally, gained experience working on group projects using Git, demonstrating a willingness to learn and collaborate with others.

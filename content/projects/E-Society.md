@@ -14,6 +14,4 @@ cover:
 
 ## Description
 
-- In my final Year of bachelor’s degree, I had developed an application titled “E Society”. The main purpose of this was to serve the residents of the Society, Colony or Apartments.
-
-- With the use of Android Studio & Java programming language, we developed a application that helped to decrease the problems that were associated with paying of monthly bills such as maintenance, electricity, and water bills. The application would also remind meetings and event updates.
+- Successfully designed and developed the "E Society" mobile application using Android Studio and Java programming language. The app aimed to streamline the monthly bill payment process and provide reminders for meetings and event updates, ultimately enhancing the daily experiences of society, colony, or apartment residents.

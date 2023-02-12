@@ -16,4 +16,4 @@ cover:
 
 ## Description
 
-A data web app that visualizes the weather forecast for the next five days of any city.
+- Designed and developed a data web application to provide an interactive visualization of the weather forecast for any city over the next five days. Utilized API integration to gather weather data and created visually appealing and informative graphics to present the information. This project showcases expertise in web development, data visualization, and API integration, providing users with a comprehensive and user-friendly solution for accessing weather information. These technical skills are highly sought after in the industry and are a valuable addition to my portfolio

@@ -11,5 +11,5 @@ weight: 302
 ### Description
 
 - Worked for the **[Global Policy Institute(GPI)](https://bellarmine.lmu.edu/gpi/)** as a Graduate Assitant.
-- Managed the website of the **GPI** and improved useability.
-- Did _Web-scraping_ for collecting data and made a _database_ in Excel.
+- Successfully managed the website for the Global Policy Institute (GPI), improving the user experience and enhancing its functionality. 
+- Utilized web scraping techniques to gather data and created a comprehensive database using Excel.
