@@ -51,7 +51,7 @@ params:
   profileMode:
     enabled: true
     title: "Jeet Desai"
-    subtitle: "Greetings👋! I am Jeet, a graduate student pursuing an MS in Computer Science at [*Loyola Marymount University*](https://www.lmu.edu/). With a passion for software engineering, I have been honing my technical skills through my studies as well as my work as a Research Assistant at the university. Prior to starting my MS program, I gained valuable experience in the industry as a Software Engineer at [*Concepts iConnect*](https://www.flinnt.com/), a EdTech startup. These experiences have equipped me with a strong foundation in computer science, a commitment to continued learning, and the ability to work effectively in a team environment. I am eager to bring my skills and experiences to a new opportunity and am confident that I would be a valuable addition to any organization"
+    subtitle: "Greetings👋! I am Jeet, a graduate student pursuing an MS in Computer Science at [*Loyola Marymount University*](https://www.lmu.edu/). With a passion for software engineering, I have been honing my technical skills through my studies as well as my work as a Research Assistant at the university. Prior to starting my MS program, I gained valuable experience in the industry as a Software Engineer Intern at [*Concepts iConnect*](https://www.flinnt.com/),These experiences have equipped me with a strong foundation in computer science, a commitment to continued learning, and the ability to work effectively in a team environment. I am eager to bring my skills and experiences to a new opportunity and am confident that I would be a valuable addition to any organization"
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
