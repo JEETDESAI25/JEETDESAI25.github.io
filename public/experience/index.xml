@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Experiences on Jeet Desai</title>
+    <link>http://localhost:1313/experience/</link>
+    <description>Recent content in Experiences on Jeet Desai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Assistant</title>
+      <link>http://localhost:1313/experience/ra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/ra/</guid>
+      <description>Loyola Marymount University</description>
+    </item>
+    
+    <item>
+      <title>Graduate Assistant</title>
+      <link>http://localhost:1313/experience/ga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/ga/</guid>
+      <description>Loyola Marymount University</description>
+    </item>
+    
+    <item>
+      <title>Software Engineer</title>
+      <link>http://localhost:1313/experience/software-engineer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/software-engineer/</guid>
+      <description>Concepts iConnect (Flinnt)</description>
+    </item>
+    
+    <item>
+      <title>Software Intern</title>
+      <link>http://localhost:1313/experience/software-intern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experience/software-intern/</guid>
+      <description>Concepts iConnect</description>
+    </item>
+    
+  </channel>
+</rss>
