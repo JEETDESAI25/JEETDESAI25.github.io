@@ -21,19 +21,15 @@ menu:
       name: Experience
       url: /experience
       weight: 40
-    # - identifier: search
-    #   name: Search
-    #   url: /search
-    #   weight: 50
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
     # - identifier: tags
     #   name: Tags
     #   url: /tags
     #   weight: 60
-    # - identifier: notes
-    #   name: Notes
-    #   url: https://notes.arkalim.org
-    #   weight: 70
-
+    
 params:
   # theme
   showToc: true
@@ -51,7 +47,7 @@ params:
   profileMode:
     enabled: true
     title: "Jeet Desai"
-    subtitle: "Greetings👋! I am Jeet, a graduate student pursuing an MS in Computer Science at [*Loyola Marymount University*](https://www.lmu.edu/). With a passion for software engineering, I have been honing my technical skills through my studies as well as my work as a Research Assistant at the university. Prior to starting my MS program, I gained valuable experience in the industry as a Software Engineer Intern at [*Concepts iConnect*](https://www.flinnt.com/),These experiences have equipped me with a strong foundation in computer science, a commitment to continued learning, and the ability to work effectively in a team environment. I am eager to bring my skills and experiences to a new opportunity and am confident that I would be a valuable addition to any organization"
+    subtitle: "Greetings👋! I am Jeet, a graduate student pursuing an MS in Computer Science at [*Loyola Marymount University*](https://www.lmu.edu/). With a passion for software engineering, I have been honing my technical skills through my studies as well as my work as a Research Assistant at the university. Prior to starting my MS program, I gained valuable experience in the industry as a Software Engineer[*Concepts iConnect*](https://www.flinnt.com/),These experiences have equipped me with a strong foundation in computer science, a commitment to continued learning, and the ability to work effectively in a team environment. I am eager to bring my skills and experiences to a new opportunity and am confident that I would be a valuable addition to any organization"
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
@@ -74,10 +70,8 @@ params:
       url: "https://www.linkedin.com/in/jeet-desai-/"
     - name: "github"
       url: "https://github.com/JEETDESAI25"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1EH0lSbzjzYu4Mf4gxgieHJpi4UuLKVcL/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1MHGX0Gs38vhdi_I2A7S3EDfXKYcrHBVE/view?usp=sharing"
 
   # text search
   fuseOpts:

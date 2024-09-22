@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Add Padel Center</title>
+      <link>http://localhost:1313/projects/add-padel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/add-padel/</guid>
+      <description>🔗 GitHub Description Developed a website for Kazakhstan’s first padel center, Add-Padel, helping them promote their business and reach a broader audience. Successfully increased traffic to the website, resulting in a significant boost in customer interest and bookings. </description>
+    </item>
+    
+    <item>
       <title>Customer Churn Analysis</title>
       <link>http://localhost:1313/projects/customer-churn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
