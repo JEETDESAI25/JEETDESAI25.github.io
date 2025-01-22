@@ -63,6 +63,13 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
+  #ERROR deprecated: .Site.Social was deprecated in Hugo v0.124.0 and will be removed in Hugo 0.142.0. Implement taxonomy 'social' or use .Site.Params.Social instead.
+  social:
+    email: "jeetdesai25@gmail.com"
+    linkedin: "jeet-desai-"
+    github: "JEETDESAI25"
+    cv: "https://drive.google.com/file/d/15opQg7Qm5EbHanEdcP8pR-DY-i3qQ0pq/view?usp=sharing"
+
   socialIcons:
     - name: "email"
       url: "mailto:jeetdesai25@gmail.com"
