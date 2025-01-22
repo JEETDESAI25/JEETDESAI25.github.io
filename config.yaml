@@ -29,7 +29,7 @@ menu:
     #   name: Tags
     #   url: /tags
     #   weight: 60
-    
+
 params:
   # theme
   showToc: true
@@ -47,7 +47,7 @@ params:
   profileMode:
     enabled: true
     title: "Jeet Desai"
-    subtitle: "Greetings👋! I am Jeet, a graduate student pursuing an MS in Computer Science at [*Loyola Marymount University*](https://www.lmu.edu/). With a passion for software engineering, I have been honing my technical skills through my studies as well as my work as a Research Assistant at the university. Prior to starting my MS program, I gained valuable experience in the industry as a Software Engineer[*Concepts iConnect*](https://www.flinnt.com/),These experiences have equipped me with a strong foundation in computer science, a commitment to continued learning, and the ability to work effectively in a team environment. I am eager to bring my skills and experiences to a new opportunity and am confident that I would be a valuable addition to any organization"
+    subtitle: "👋 Hi, I'm Jeet - a Software Engineer and MS Computer Science student at Loyola Marymount University. I specialize in full-stack development with experience in building scalable web applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
@@ -71,7 +71,7 @@ params:
     - name: "github"
       url: "https://github.com/JEETDESAI25"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1MHGX0Gs38vhdi_I2A7S3EDfXKYcrHBVE/view?usp=sharing"
+      url: "https://drive.google.com/file/d/15opQg7Qm5EbHanEdcP8pR-DY-i3qQ0pq/view?usp=sharing"
 
   # text search
   fuseOpts:
