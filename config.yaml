@@ -37,6 +37,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  social: true
 
   #
 
