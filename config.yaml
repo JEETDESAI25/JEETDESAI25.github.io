@@ -66,20 +66,19 @@ params:
 
   #ERROR deprecated: .Site.Social was deprecated in Hugo v0.124.0 and will be removed in Hugo 0.142.0. Implement taxonomy 'social' or use .Site.Params.Social instead.
   Social:
-    email: "jeetdesai25@gmail.com"
+    email: "mail@jeetdesai.com"
     linkedin: "jeet-desai-"
     github: "JEETDESAI25"
-    cv: "https://drive.google.com/file/d/1HEISdu4kTidm442gCa3CZOEtl1ERygwH/view?usp=sharing"
+    cv: "https://drive.google.com/file/d/1MkNcth2SIoMnQmUvmCSQtQYeEFaeXy1U/view?usp=sharing"
   socialIcons:
     - name: "email"
-      url: "mailto:jeetdesai25@gmail.com"
+      url: "mailto:mail@jeetdesai.com"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/jeet-desai-/"
     - name: "github"
       url: "https://github.com/JEETDESAI25"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1HEISdu4kTidm442gCa3CZOEtl1ERygwH/view?usp=sharing"
-
+      url: "https://drive.google.com/file/d/1MkNcth2SIoMnQmUvmCSQtQYeEFaeXy1U/view?usp=sharing"
   # text search
   fuseOpts:
     isCaseSensitive: false
