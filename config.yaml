@@ -69,7 +69,7 @@ params:
     email: "mail@jeetdesai.com"
     linkedin: "jeet-desai-"
     github: "JEETDESAI25"
-    cv: "https://drive.google.com/file/d/1MkNcth2SIoMnQmUvmCSQtQYeEFaeXy1U/view?usp=sharing"
+    cv: "https://drive.google.com/file/d/1JyX_NSPNva1ayZpSzKmwV055zbx6Eq80/view?usp=sharing"
   socialIcons:
     - name: "email"
       url: "mailto:mail@jeetdesai.com"
@@ -78,7 +78,7 @@ params:
     - name: "github"
       url: "https://github.com/JEETDESAI25"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1MkNcth2SIoMnQmUvmCSQtQYeEFaeXy1U/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1JyX_NSPNva1ayZpSzKmwV055zbx6Eq80/view?usp=sharing"
   # text search
   fuseOpts:
     isCaseSensitive: false
