@@ -48,7 +48,7 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Jeet Desai"
+    title: " "
     subtitle: "👋 Hi, I'm Jeet - a Software Engineer and MS Computer Science student at Loyola Marymount University. I specialize in full-stack development with experience in building scalable web applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
@@ -117,7 +117,7 @@ images:
   # Enable WebP format with fallback
   formats: ["webp", "original"]
   # Balanced quality (90 is visually similar to 100 but much smaller)
-  quality: 90
+  quality: 100
   # Add responsive image sizes
   sizes: [360, 480, 720, 1080]
   # Enable lazy loading
