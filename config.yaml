@@ -31,6 +31,9 @@ menu:
     #   weight: 60
 
 params:
+  # Description for SEO
+  description: "Jeet Desai's personal website - Software Engineer and MS Computer Science student at Loyola Marymount University. Full-stack development, machine learning solutions, and efficient tech innovations."
+
   # theme
   showToc: true
   TocOpen: false
@@ -38,8 +41,6 @@ params:
   ShowCodeCopyButtons: true
   hideMeta: false
   social: true
-
-  #
 
   # for enchanced SEO
   env: production
@@ -52,6 +53,8 @@ params:
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
+    # Enable image processing for profile
+    imageOptimize: true
     # buttons:
     #   - name: Resume
     #     url: ""
@@ -63,6 +66,8 @@ params:
   cover:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
+    responsiveImages: true
+    linkFullImages: false
 
   #ERROR deprecated: .Site.Social was deprecated in Hugo v0.124.0 and will be removed in Hugo 0.142.0. Implement taxonomy 'social' or use .Site.Params.Social instead.
   Social:
@@ -101,3 +106,28 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+assets:
+  disableFingerprinting: false
+  favicon: "/favicon.ico"
+
+images:
+  # Enable image processing
+  process: true
+  # Enable WebP format with fallback
+  formats: ["webp", "original"]
+  # Balanced quality (90 is visually similar to 100 but much smaller)
+  quality: 90
+  # Add responsive image sizes
+  sizes: [360, 480, 720, 1080]
+  # Enable lazy loading
+  loading: lazy
+
+server:
+  headers:
+    - for: "/**"
+      values:
+        Cache-Control: "public, max-age=31536000"
+    - for: "/*.html"
+      values:
+        Cache-Control: "public, max-age=0, must-revalidate"
