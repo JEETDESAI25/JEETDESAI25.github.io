@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Portfolio Website
 
 This is my personal portfolio website built with Hugo and the PaperMod theme.
 
