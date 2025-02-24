@@ -1,7 +1,7 @@
 ---
 title: "Software Engineer"
-description: "Concepts iConnect (Flinnt)"
-dateString: Jun 2021 - July 2022
+description: "Flinnt(Connects iConnect Pvt.Ltd.)"
+dateString: May 2020 - July 2022
 draft: false
 tags: []
 showToc: false
@@ -10,8 +10,13 @@ weight: 303
 
 ## Description
 
-- Worked with the Web Development team to Design and establish user-friendly website **[Flinnt](https://www.flinnt.com/)**.
-- Formulated and implement improvements on cleanup process and performance, minimizing downtime by _10%_.
-- Diagnosed and troubleshoot company's website by deploying updated knowledge of the modern technologies and techniques in the industry.
-  -Conceptualize and enforce a server that accelerated document generation as well as the search fuctionality of current website by _15%_.
-- Proactively liaised with the design team and project manager to ensure efficient and timely delivery of significant projects.
+- Supported 10,000+ active users by developing scalable Applications using React.js for the frontend and Java Spring Boot and Node.js for the backend.
+- Built and documented RESTful APIs using Spring Web MVC and Swagger/OpenAPI, with Jackson for JSON processing, improving integration
+efficiency by 40%.
+- Optimized MySQL performance using Spring Data JPA, Hibernate, and HikariCP connection pooling, achieving 45% faster response times.
+- Implemented application monitoring using Spring Actuator and Micrometer with SLF4J/Logback logging, reducing production incidents by 35%.
+- Created and maintained API documentation using Swagger/OpenAPI specifications to support quick onboarding of new team members.
+- Implemented React.js server-side rendering (SSR) and code splitting, reducing initial load time by 40% and improving SEO by 15%.
+- Developed React.js performance optimizations through reusable components, hooks, lazy loading, and debouncing, achieving 30% faster page
+loads and 25% improved navigation efficiency.
+- Cut downtime by 10% by conducting audits and refactoring code using Webpack and Lighthouse tools.

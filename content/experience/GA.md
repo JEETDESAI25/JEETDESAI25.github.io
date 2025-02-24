@@ -1,5 +1,5 @@
 ---
-title: "Graduate Assistant"
+title: "Software Engineer Graduate Assistant"
 description: "Loyola Marymount University"
 dateString: Sep 2022 - Jan 2023
 draft: false
