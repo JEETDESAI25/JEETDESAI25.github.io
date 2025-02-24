@@ -45,6 +45,18 @@ params:
   # for enchanced SEO
   env: production
 
+  # Assets and styling
+  assets:
+    disableHLJS: false
+    favicon: "/favicon.ico"
+    disableFingerprinting: false
+
+  # Custom styling
+  customCSS: |
+    * {
+      font-family: 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important;
+    }
+
   # Home Page
   profileMode:
     enabled: true
@@ -84,7 +96,8 @@ params:
       url: "https://github.com/JEETDESAI25"
     - name: "cv"
       url: "https://drive.google.com/file/d/1JyX_NSPNva1ayZpSzKmwV055zbx6Eq80/view?usp=sharing"
-  # text search
+
+  # Search settings
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -107,22 +120,15 @@ markup:
     renderer:
       unsafe: true
 
-assets:
-  disableFingerprinting: false
-  favicon: "/favicon.ico"
-
+# Image processing
 images:
-  # Enable image processing
   process: true
-  # Enable WebP format with fallback
   formats: ["webp", "original"]
-  # Balanced quality (90 is visually similar to 100 but much smaller)
   quality: 100
-  # Add responsive image sizes
   sizes: [360, 480, 720, 1080]
-  # Enable lazy loading
   loading: lazy
 
+# Cache settings
 server:
   headers:
     - for: "/**"
