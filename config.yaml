@@ -59,7 +59,6 @@ params:
     imageUrl: "home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
-    # Enable image processing for profile
     imageOptimize: true
     # buttons:
     #   - name: Resume
