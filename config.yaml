@@ -51,12 +51,6 @@ params:
     favicon: "/favicon.ico"
     disableFingerprinting: false
 
-  # Custom styling
-  customCSS: |
-    * {
-      font-family: 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important;
-    }
-
   # Home Page
   profileMode:
     enabled: true
