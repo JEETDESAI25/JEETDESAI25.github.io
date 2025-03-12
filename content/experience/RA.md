@@ -5,7 +5,7 @@ dateString: Jan 2023 - Ongoing
 draft: false
 # tags: ["Python", "Linux", "Kubernetes", "Docker", "GCP", "Automation", "FastAPI"]
 showToc: false
-weight: 301
+weight: 302
 ---
 
 ### Description
@@ -13,7 +13,7 @@ weight: 301
 - Designing and developing a cross-platform mobile application using React Native to provide personalized food recommendations with a focus on adequate nutrient intake.
 - The user-friendly app provides personalized recommendations, helping individuals make healthier food choices and leading a more balanced and nutritious lifestyle.
 - Engineered backend scalability using PostgreSQL for database management and implemented asynchronous processing with Celery and
-RabbitMQ, improving system reliability by 35%.
+  RabbitMQ, improving system reliability by 35%.
 - Implemented CI/CD pipeline using Docker and GitHub Actions, reducing deployment time by 40% and ensuring cross-environment consistency.
 - Resolved device-specific UI issues for iPhone models using NativeWind, ensuring consistent user experience.
 - Designed secure password reset system and implemented JWT authentication, reducing support tickets by 25%.
