@@ -10,26 +10,26 @@ menu:
       name: Home
       url: /
       weight: 10
-    # - identifier: blog
-    #   name: Blog
-    #   url: /blog
-    #   weight: 20
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 40
     - identifier: projects
       name: Projects
       url: /projects
-      weight: 20
+      weight: 30
     - identifier: experience
       name: Experience
       url: /experience
-      weight: 40
+      weight: 20
     - identifier: search
       name: Search
       url: /search
-      weight: 50
+      weight: 60
     # - identifier: tags
     #   name: Tags
     #   url: /tags
-    #   weight: 60
+    #   weight: 50
 
 params:
   # Description for SEO
@@ -40,6 +40,7 @@ params:
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
+  ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   hideMeta: false
   ShowShareButtons: true
@@ -82,7 +83,9 @@ params:
     email: "mail@jeetdesai.com"
     linkedin: "jeet-desai-"
     github: "JEETDESAI25"
+    twitter: "jeetdesai2505"
     cv: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
+
   socialIcons:
     - name: "email"
       url: "mailto:mail@jeetdesai.com"
@@ -90,6 +93,8 @@ params:
       url: "https://www.linkedin.com/in/jeet-desai-/"
     - name: "github"
       url: "https://github.com/JEETDESAI25"
+    - name: "twitter"
+      url: "https://x.com/Jeet2505"
     - name: "cv"
       url: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
 
@@ -120,7 +125,7 @@ markup:
 images:
   process: true
   formats: ["webp", "original"]
-  quality: 100
+  quality: 85
   sizes: [360, 480, 720, 1080]
   loading: lazy
 
