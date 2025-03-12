@@ -1,4 +1,5 @@
-baseURL: "https://jeetdesai25.github.io/"
+# baseURL: "https://jeetdesai25.github.io/"
+baseURL: "https://www.jeetdesai.com"
 languageCode: "en-us"
 title: "Jeet Desai"
 theme: "PaperMod"
@@ -16,7 +17,7 @@ menu:
     - identifier: projects
       name: Projects
       url: /projects
-      weight: 30
+      weight: 20
     - identifier: experience
       name: Experience
       url: /experience
@@ -32,14 +33,17 @@ menu:
 
 params:
   # Description for SEO
-  description: "Jeet Desai's personal website - Software Engineer and MS Computer Science student at Loyola Marymount University. Full-stack development, machine learning solutions, and efficient tech innovations."
+  description: "Jeet Desai's personal website - Software Engineer and MS Computer Science Graduate at Loyola Marymount University. Full-stack development, machine learning solutions, and efficient tech innovations."
 
   # theme
+  defaultTheme: auto
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  ShowShareButtons: true
+  ShowReadingTime: false
   social: true
 
   # for enchanced SEO
@@ -55,7 +59,7 @@ params:
     enabled: true
     title: " "
     subtitle: "👋 Hi, I'm Jeet - a Software Engineer and MS Computer Science Graduate. I specialize in full-stack development with experience in building scalable applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
-    imageUrl: "images/home/IMG_6664-modified.jpeg"
+    imageUrl: "images/home/IMG_6664-modified.png"
     imageWidth: 250
     imageHeight: 250
     imageOptimize: true
@@ -70,7 +74,7 @@ params:
   cover:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
-    responsiveImages: true
+    responsiveImages: false
     linkFullImages: false
 
   #ERROR deprecated: .Site.Social was deprecated in Hugo v0.124.0 and will be removed in Hugo 0.142.0. Implement taxonomy 'social' or use .Site.Params.Social instead.
