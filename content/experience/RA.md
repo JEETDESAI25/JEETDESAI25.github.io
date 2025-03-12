@@ -1,7 +1,7 @@
 ---
 title: "Software Engineer Research Assistant"
 description: "Loyola Marymount University"
-dateString: Jan 2023 - Ongoing
+dateString: Jan 2023 - Jan 2025
 draft: false
 # tags: ["Python", "Linux", "Kubernetes", "Docker", "GCP", "Automation", "FastAPI"]
 showToc: false
