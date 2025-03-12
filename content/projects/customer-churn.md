@@ -1,16 +1,20 @@
 ---
 title: "Customer Churn Analysis"
-description: ""
-dateString: 
+description: "A comprehensive analysis of customer churn in an Iranian Telecommunication company, using data preprocessing, model construction, and analysis to mitigate churn rate."
+dateString:
 draft: false
 # tags: ["AWS", "RegEx", "MkDocs", "GitHub Action", "Docker", "Bash", "TypeScript", "Node.JS"]
 weight: 201
 cover:
-  image: "/projects/customer-churn/Customer-Churn.png"
+  image: "projects/customer-churn/Customer-Churn.jpeg"
 ---
 
 ### 🔗 [GitHub](https://github.com/JEETDESAI25/customer_churn_analysis)
 
 ## Description
 
-- One of the most important parts of running any business is to understand the value of your customers. And in order to survive, or even thrive in your business is to identify customers who are not hesitant to leave your business and turn towards your competitor. Customer churn model aims to identify this and generate a binary value - indicating whether a customer will churn or not. In this paper customer information from an Iranian Telecommunication company was used to predict if a customer will churn or not. The key steps used to implement this is: data preprocessing - where we clean the data from various impurities, model construction - building 3 models that will be used to predict if a customer will churn or not, and lastly, analysis of the data was done in order to mitigate the customer churn rate.
+- Customer retention is a critical factor in business success, with understanding and predicting customer behavior being essential for maintaining a competitive edge.
+- This project focuses on developing a customer churn prediction model for an Iranian Telecommunication company to identify customers likely to discontinue services.
+- The model generates binary predictions indicating whether a customer will churn, enabling proactive retention strategies. Our methodology involves three key phases:
+- comprehensive data preprocessing to ensure data quality, construction of three predictive models for comparative analysis, and in-depth analysis of results to develop targeted churn mitigation strategies.
+- This systematic approach provides valuable insights for reducing customer attrition and maintaining long-term business sustainability.

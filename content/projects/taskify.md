@@ -5,14 +5,19 @@ dateString:
 draft: false
 # tags: ["React", "Web Development", "Frontend Development", "HTML", "CSS", "JavaScript"]
 showToc: false
-weight: 204
+weight: 206
 cover:
-  image: "/projects/todo-list-app/1.png"
+  image: "projects/todo-list-app/1.png"
 ---
 
 ### 🔗 [GitHub](https://github.com/JEETDESAI25/Taskify)
 
 ## Description
 
-- A minimalist and elegant productivity app designed to eliminate distractions and help you stay focused on what matters most - getting things done.
-- A feature-rich to-do application built using TypeScript that makes task management effortless with intuitive options to add, edit, and remove tasks. This project was built while deepening my knowledge of **TypeScript** development.
+- A sleek, minimalist productivity app crafted to eliminate distractions and enhance focus on your most important tasks
+- Built with TypeScript to deliver a robust and type-safe task management experience
+- Features an intuitive interface for seamless task creation, editing, and deletion
+- Implements drag-and-drop functionality for easy task prioritization
+- Includes local storage integration to persist your tasks between sessions
+- Responsive design ensures a consistent experience across all devices
+- Clean and modern UI with smooth animations and transitions

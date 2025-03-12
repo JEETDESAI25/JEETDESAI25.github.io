@@ -5,9 +5,9 @@ dateString:
 draft: false
 # tags: ["React", "Web Development", "Frontend Development", "HTML", "CSS", "JavaScript"]
 showToc: false
-weight: 204
+weight: 202
 cover:
-  image: "/projects/unite/unite.jpg"
+  image: "projects/unite/unite.jpg"
 ---
 
 ## Description

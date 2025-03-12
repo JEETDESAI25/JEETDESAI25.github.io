@@ -50,13 +50,12 @@ params:
     disableHLJS: false
     favicon: "/favicon.ico"
     disableFingerprinting: false
-
   # Home Page
   profileMode:
     enabled: true
     title: " "
     subtitle: "👋 Hi, I'm Jeet - a Software Engineer and MS Computer Science Graduate. I specialize in full-stack development with experience in building scalable applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
-    imageUrl: "home/IMG_6664-modified.png"
+    imageUrl: "images/home/IMG_6664-modified.jpeg"
     imageWidth: 250
     imageHeight: 250
     imageOptimize: true

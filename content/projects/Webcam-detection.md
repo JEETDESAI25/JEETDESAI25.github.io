@@ -1,16 +1,21 @@
 ---
 title: "Webcam-Detection"
-description: ""
-dateString: 
+description: "Dynamic webcam detection system using computer vision technology to monitor and detect real-time object movements through webcam feed"
+dateString:
 draft: false
 # tags: ["Python", "PyTorch", "CNN", "LSTM", "CRNN", "DL", "AI"]
 showToc: false
 weight: 203
 cover:
-    image: "/projects/Webcam-detection/11.png"
---- 
+  image: "projects/Webcam-detection/11.png"
+---
+
 ### 🔗 [GitHub](https://github.com/JEETDESAI25/email-webcam-detection)
 
 ## Description
-- Designed and implemented a program utilizing computer vision to detect new objects entering the view of a webcam. The program then sends an email with an attached picture of the object, demonstrating proficiency in both computer vision and email automation.
 
+- Developed an intelligent surveillance system using computer vision technology to monitor and detect real-time object movements through webcam feed
+- Implemented sophisticated motion detection algorithms to accurately identify and track new objects entering the camera's field of view
+- Created an automated email notification system that instantly captures and sends high-quality images of detected objects
+- Integrated seamless communication between computer vision processing and email automation for reliable alert delivery
+- Demonstrated strong programming skills in Python, OpenCV library usage, and email API integration
