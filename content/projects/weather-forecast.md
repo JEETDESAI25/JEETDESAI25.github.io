@@ -1,6 +1,6 @@
 ---
 title: "Weather Forecast App"
-description: :"Dynamic weather forecast application featuring real-time data visualization for any global city's 5-day weather outlook."
+description: "Dynamic weather forecast application featuring real-time data visualization for any global city's 5-day weather outlook."
 dateString:
 draft: false
 # tags: ["DL", "AI", "Python", "PyTorch", "Computer Vision"]
