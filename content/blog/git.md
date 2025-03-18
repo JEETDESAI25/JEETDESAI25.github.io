@@ -34,9 +34,9 @@ git pull
 
 ### Creating Your First Repository
 
-1. Make a new folder for your project
-2. Open terminal in that folder
-3. Run these commands:
+  1. Make a new folder for your project
+  2. Open terminal in that folder
+  3. Run these commands:
 
    ```bash
    git init
@@ -88,10 +88,10 @@ git commit -m "Add new feature"
 
 ## Tips I Wish I Knew Earlier
 
-1. **Commit Often**: Small, regular commits are better than big, rare ones
-2. **Write Clear Messages**: Future you will thank present you
-3. **Pull Before Push**: Always get the latest changes first
-4. **Use Branches**: Keep your work separate and organized
+  1. **Commit Often**: Small, regular commits are better than big, rare ones
+  2. **Write Clear Messages**: Future you will thank present you
+  3. **Pull Before Push**: Always get the latest changes first
+  4. **Use Branches**: Keep your work separate and organized
 
 ## Quick Reference Guide
 
@@ -109,9 +109,9 @@ Save this for later:
 
 Start small:
 
-1. Create a test repository
-2. Make some changes
-3. Commit them
+  1. Create a test repository
+  2. Make some changes
+  3. Commit them
 4. Create a branch
 5. Make more changes
 
