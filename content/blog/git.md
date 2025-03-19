@@ -38,12 +38,12 @@ git pull
   2. Open terminal in that folder
   3. Run these commands:
 
-   ```bash
-   git init
-   echo "# My Project" > README.md
-   git add README.md
-   git commit -m "First commit"
-   ```
+```bash
+git init
+echo "# My Project" > README.md
+git add README.md
+git commit -m "First commit"
+```
 
 ## Working with Branches
 
@@ -97,13 +97,13 @@ git commit -m "Add new feature"
 
 Save this for later:
 
-| What You Want | Command to Use |
-|--------------|----------------|
-| Check status | `git status` |
-| Save changes | `git add .` then `git commit -m "message"` |
-| Get updates | `git pull` |
-| Share code | `git push` |
-| New branch | `git checkout -b branch-name` |
+| What You Want | Command to Use                             |
+| ------------- | ------------------------------------------ |
+| Check status  | `git status`                               |
+| Save changes  | `git add .` then `git commit -m "message"` |
+| Get updates   | `git pull`                                 |
+| Share code    | `git push`                                 |
+| New branch    | `git checkout -b branch-name`              |
 
 ## Next Steps
 
@@ -112,8 +112,8 @@ Start small:
   1. Create a test repository
   2. Make some changes
   3. Commit them
-4. Create a branch
-5. Make more changes
+  4. Create a branch
+  5. Make more changes
 
 Remember: Git becomes easier with practice. Don't worry about memorizing commands - focus on understanding the basic workflow, and the rest will come naturally.
 
