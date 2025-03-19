@@ -4,6 +4,7 @@ date: 2024-03-12
 description: "A beginner-friendly guide to Git with practical examples and essential commands"
 # tags: ["git", "version-control", "programming", "developer-tools"]
 showToc: true
+showReadingTime: true
 weight: 1
 ---
 
@@ -34,9 +35,9 @@ git pull
 
 ### Creating Your First Repository
 
-  1. Make a new folder for your project
-  2. Open terminal in that folder
-  3. Run these commands:
+  - Make a new folder for your project
+  - Open terminal in that folder
+  - Run these commands:
 
 ```bash
 git init
@@ -88,10 +89,10 @@ git commit -m "Add new feature"
 
 ## Tips I Wish I Knew Earlier
 
-  1. **Commit Often**: Small, regular commits are better than big, rare ones
-  2. **Write Clear Messages**: Future you will thank present you
-  3. **Pull Before Push**: Always get the latest changes first
-  4. **Use Branches**: Keep your work separate and organized
+  - **Commit Often**: Small, regular commits are better than big, rare ones
+  - **Write Clear Messages**: Future you will thank present you
+  - **Pull Before Push**: Always get the latest changes first
+  - **Use Branches**: Keep your work separate and organized
 
 ## Quick Reference Guide
 
@@ -109,11 +110,11 @@ Save this for later:
 
 Start small:
 
-  1. Create a test repository
-  2. Make some changes
-  3. Commit them
-  4. Create a branch
-  5. Make more changes
+  - Create a test repository
+  - Make some changes
+  - Commit them
+  - Create a branch
+  - Make more changes
 
 Remember: Git becomes easier with practice. Don't worry about memorizing commands - focus on understanding the basic workflow, and the rest will come naturally.
 
