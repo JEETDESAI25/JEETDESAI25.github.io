@@ -1,0 +1,4 @@
+:root{--mono-font:"Geist Mono", ui-monospace, "SF Mono", Menlo, Monaco, "Cascadia Mono",
+        "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
+        "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New",
+        monospace}body{font-family:var(--mono-font);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}pre,code{font-family:var(--mono-font)}
