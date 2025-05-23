@@ -84,7 +84,7 @@ params:
     linkedin: "jeet-desai-"
     github: "JEETDESAI25"
     twitter: "jeetdesai2505"
-    cv: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
+    # cv: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
 
   socialIcons:
     - name: "email"
@@ -95,9 +95,9 @@ params:
       url: "https://github.com/JEETDESAI25"
     - name: "twitter"
       url: "https://x.com/Jeet2505"
-    - name: "cv"
-      url: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
-
+    # - name: "cv"
+    #   url: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
+    
   # Search settings
   fuseOpts:
     isCaseSensitive: false
