@@ -1,0 +1,62 @@
+<div class="profile-modern">
+    {{- with site.Params.profileMode }}
+    <div class="profile-container">
+        <div class="profile-image-section">
+            {{- if .imageUrl -}}
+            {{- $img := resources.Get .imageUrl }}
+            {{- if $img }}
+            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+            {{- if hugo.IsExtended -}}
+            {{- $processableFormats = $processableFormats | append "webp" -}}
+            {{- end -}}
+            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+            {{- if .imageHeight }}
+            {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+            {{ else if .imageWidth }}
+            {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+            {{ else }}
+            {{- $img = $img.Resize "350x350" }}
+            {{- end }}
+            {{- end }}
+            <div class="profile-image-wrapper">
+                <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default " profile image" }}"
+                    class="profile-image" />
+                <div class="profile-image-decoration"></div>
+            </div>
+            {{- else }}
+            <div class="profile-image-wrapper">
+                <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " profile image" }}"
+                    class="profile-image" />
+                <div class="profile-image-decoration"></div>
+            </div>
+            {{- end }}
+            {{- end }}
+        </div>
+
+        <div class="profile-content">
+            <div class="profile-header">
+                <h1 class="profile-name">{{ .title | default site.Title | markdownify }}</h1>
+            </div>
+
+            <div class="profile-subtitle">
+                {{ .subtitle | markdownify }}
+            </div>
+
+            <div class="profile-actions">
+                {{- partial "social_icons.html" site.Params.socialIcons -}}
+
+                {{- with .buttons }}
+                <div class="profile-buttons">
+                    {{- range . }}
+                    <a class="profile-button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+                        <span class="button-inner">{{ .name }}</span>
+                    </a>
+                    {{- end }}
+                </div>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+    {{- end}}
+</div>

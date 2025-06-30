@@ -1,21 +1,345 @@
 /* Custom Typography */
 :root {
-    --mono-font:
-        "Geist Mono", ui-monospace, "SF Mono", Menlo, Monaco, "Cascadia Mono",
-        "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
-        "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New",
-        monospace;
+  --mono-font: "Geist Mono", ui-monospace, "SF Mono", Menlo, Monaco,
+    "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono",
+    "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono",
+    "Courier New", monospace;
 }
 
 /* Base Typography */
 body {
-    font-family: var(--mono-font);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: var(--mono-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Code Block Styling */
 pre,
 code {
-    font-family: var(--mono-font);
+  font-family: var(--mono-font);
+}
+
+/* Modern Profile Layout */
+.profile-modern {
+  min-height: calc(
+    100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2)
+  );
+  display: flex;
+  align-items: flex-start;
+  animation: fadeIn 0.8s ease-out;
+  padding: 0 var(--gap);
+  padding-top: 80px;
+  position: relative;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Profile Content Section */
+.profile-content {
+  margin-left: 0;
+}
+
+.profile-header {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.profile-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 12px 0;
+  color: var(--primary);
+  animation: fadeIn 0.8s ease-out 0.3s both;
+}
+
+/* Removed availability badge styles */
+
+/* Profile Subtitle */
+.profile-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  max-width: 600px;
+  animation: fadeIn 0.8s ease-out 0.4s both;
+  color: var(--content);
+  text-align: left;
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: slideInLeft 0.8s ease-out 0.3s both;
+}
+
+.tech-stack-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-tag {
+  padding: 6px 12px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary);
+}
+
+/* Profile Actions */
+.profile-actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  animation: fadeIn 0.8s ease-out 0.5s both;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.profile-actions .social-icons {
+  margin-top: 0;
+}
+
+.profile-actions .social-icons a {
+  transition: all 0.3s ease;
+}
+
+.profile-actions .social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+/* Profile Buttons */
+.profile-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-button {
+  padding: 6px 14px;
+  background: transparent;
+  color: var(--primary);
+  border: 1.5px solid var(--primary);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.profile-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--primary);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.profile-button:hover {
+  transform: translateY(-2px);
+  color: var(--theme);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-button:hover::before {
+  left: 0;
+}
+
+/* Add email icon to contact button */
+.profile-button .button-inner::after {
+  content: " ✉";
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 1.4em;
+  opacity: 0.9;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.profile-button:hover .button-inner::after {
+  transform: translateX(3px);
+  opacity: 1;
+}
+
+/* Mobile touch states */
+@media (hover: none) {
+  .profile-button:active {
+    transform: translateY(-2px);
+    color: var(--theme);
+    background: var(--primary);
+  }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 480px) {
+  .profile-button {
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Profile Image Section */
+.profile-image-section {
+  margin-bottom: 40px;
+  animation: fadeIn 0.8s ease-out 0.2s both;
+}
+
+.profile-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: 3px solid var(--theme);
+  transition: all 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Add clearfix for float */
+
+.profile-image-decoration {
+  display: none;
+}
+
+/* Add subtle animation to social icons */
+.profile-actions .social-icons {
+  display: flex;
+  gap: 18px;
+  margin-top: 0;
+}
+
+.profile-actions .social-icons a svg {
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.profile-actions .social-icons a:hover svg {
+  opacity: 1;
+  stroke: var(--primary);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(10deg);
+  }
+}
+
+/* Dark Mode Adjustments */
+.dark .tech-tag {
+  background: var(--code-bg);
+  border-color: var(--border);
+}
+
+.dark .tech-tag:hover {
+  border-color: var(--primary);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+.dark .profile-image {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.dark .profile-button {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.dark .profile-button:hover {
+  color: var(--theme);
+  background: var(--primary);
+}
+
+/* Mobile keeps exact same appearance as desktop */
+
+/* Ensure animations work on all devices */
+@media (prefers-reduced-motion: no-preference) {
+  .profile-modern,
+  .profile-name,
+  .profile-subtitle,
+  .profile-actions,
+  .profile-image-section {
+    animation-play-state: running !important;
+  }
+}
+
+/* Override default PaperMod profile styles */
+.main .profile {
+  display: none;
 }

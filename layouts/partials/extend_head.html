@@ -1,46 +1,18 @@
 {{- /* Add custom fonts with performance optimizations */ -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"
+  media="print" onload="this.media='all'">
 <noscript>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </noscript>
 
 {{- /* Inline critical CSS */ -}}
 <style>
-/* Critical CSS for above-the-fold content */
-/* Profile section optimization */
-.profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
-  text-align: center;
-  content-visibility: auto;
-}
-
-.profile img {
-  display: inline-table;
-  border-radius: 50%;
-  pointer-events: none;
-  will-change: transform;
-}
-
-.profile .profile_inner {
-  padding: 12px 0;
-}
-
-.profile_inner h1 {
-  padding: 12px 0;
-}
-
-/* Optimize render delay which is 78% of your LCP according to the screenshot */
-.profile_inner {
-  will-change: transform;
-  transform: translateZ(0);
-}
+  /* Critical CSS for above-the-fold content */
+  /* Profile styles are now in custom.css to avoid conflicts */
 </style>
 
 {{- /* Direct link to custom CSS */ -}}
 {{ $customCSS := resources.Get "css/extended/custom.css" | resources.Minify }}
-<link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" media="print" onload="this.media='all'"> 
+<link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">

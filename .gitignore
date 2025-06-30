@@ -21,3 +21,6 @@ Thumbs.db
 
 # Local development
 .env
+
+# claude code
+CLAUDE.md

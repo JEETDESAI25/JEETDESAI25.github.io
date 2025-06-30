@@ -7,7 +7,7 @@ theme: "PaperMod"
 menu:
   main:
     - identifier: home
-      name: Home
+      name: About
       url: /
       weight: 10
     - identifier: blog
@@ -64,9 +64,9 @@ params:
     imageWidth: 225
     imageHeight: 225
     imageOptimize: true
-    # buttons:
-    #   - name: Resume
-    #     url: ""
+    buttons:
+      - name: "Contact"
+        url: "mailto:mail@jeetdesai.com"
 
   # List View
   hideDescriptionInList: false
@@ -87,8 +87,6 @@ params:
     # cv: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
 
   socialIcons:
-    - name: "email"
-      url: "mailto:mail@jeetdesai.com"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/jeet-desai-/"
     - name: "github"
@@ -97,7 +95,7 @@ params:
       url: "https://x.com/Jeet2505"
     # - name: "cv"
     #   url: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
-    
+
   # Search settings
   fuseOpts:
     isCaseSensitive: false
