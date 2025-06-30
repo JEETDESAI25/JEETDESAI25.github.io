@@ -28,7 +28,7 @@ code {
   align-items: flex-start;
   animation: fadeIn 0.8s ease-out;
   padding: 0 var(--gap);
-  padding-top: 40px;
+  padding-top: 0px;
   position: relative;
 }
 
@@ -202,7 +202,7 @@ code {
 /* Mobile responsive adjustments */
 @media (max-width: 480px) {
   .profile-modern {
-    padding-top: 40px;
+    padding-top: 0px;
   }
 
   .profile-container {
