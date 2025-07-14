@@ -64,9 +64,6 @@ params:
     imageWidth: 200
     imageHeight: 200
     imageOptimize: true
-    buttons:
-      - name: "Contact"
-        url: "mailto:mail@jeetdesai.com"
 
   # List View
   hideDescriptionInList: false
@@ -87,6 +84,8 @@ params:
     # cv: "https://drive.google.com/file/d/1tyqgV4LxGgs7lN0Q4dF-GzRkKJmd1hIb/view?usp=sharing"
 
   socialIcons:
+    - name: "email"
+      url: "mailto:mail@jeetdesai.com"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/jeet-desai-/"
     - name: "github"

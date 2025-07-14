@@ -45,16 +45,6 @@
 
             <div class="profile-actions">
                 {{- partial "social_icons.html" site.Params.socialIcons -}}
-
-                {{- with .buttons }}
-                <div class="profile-buttons">
-                    {{- range . }}
-                    <a class="profile-button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-                        <span class="button-inner">{{ .name }}</span>
-                    </a>
-                    {{- end }}
-                </div>
-                {{- end }}
             </div>
         </div>
     </div>
