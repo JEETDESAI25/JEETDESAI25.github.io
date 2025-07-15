@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true
     title: " "
-    subtitle: "👋 Hi, I'm Jeet - a Software Engineer and MS Computer Science Graduate. I specialize in full-stack development with experience in building scalable applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
+    subtitle: "Hi, I'm Jeet - a Software Engineer and MS Computer Science Graduate. I specialize in full-stack development with experience in building scalable applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
     imageUrl: "images/home/IMG_6664-modified.png"
     imageWidth: 200
     imageHeight: 200
