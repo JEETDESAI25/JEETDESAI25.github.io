@@ -33,7 +33,7 @@ menu:
 
 params:
   # Description for SEO
-  description: "Jeet Desai's personal website - Software Engineer and MS Computer Science Graduate at Loyola Marymount University. Full-stack development, machine learning solutions, and efficient tech innovations."
+  description: "Jeet Desai's personal website - Software Engineer and MS Computer Science Graduate."
 
   # theme
   defaultTheme: auto
