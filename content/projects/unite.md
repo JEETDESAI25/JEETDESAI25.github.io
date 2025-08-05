@@ -19,7 +19,7 @@ cover:
 - Provides opportunities for meaningful engagement and action.
 - By connecting with a community of like-minded individuals, users can amplify their impact, learn together, and create a dedicated space for social change.
 
-## Teck Stack
+## Tech Stack
 
 - Frontend & Backend: Built with Next.js for a streamlined user experience.
 - Data Storage: Powered by Firebase.
