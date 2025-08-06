@@ -1,5 +1,5 @@
 ---
-title: "Software Developer"
+title: "Software Engineer"
 description: "MealMate Inc"
 dateString: Feb 2025 - Present
 draft: false

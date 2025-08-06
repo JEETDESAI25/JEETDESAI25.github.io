@@ -35,7 +35,7 @@ code {
 .profile-container {
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   padding: 40px 20px;
 }
 
@@ -131,7 +131,6 @@ code {
   transform: translateY(-3px);
 }
 
-
 /* Mobile responsive adjustments */
 @media (max-width: 480px) {
   .profile-modern {
@@ -163,8 +162,8 @@ code {
 }
 
 .profile-image {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);

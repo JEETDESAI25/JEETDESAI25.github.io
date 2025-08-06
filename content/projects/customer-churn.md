@@ -5,6 +5,7 @@ dateString:
 draft: false
 # tags: ["AWS", "RegEx", "MkDocs", "GitHub Action", "Docker", "Bash", "TypeScript", "Node.JS"]
 weight: 201
+showToc: false
 cover:
   image: "projects/customer-churn/Customer-Churn.jpeg"
 ---
