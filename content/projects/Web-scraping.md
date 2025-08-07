@@ -10,8 +10,6 @@ cover:
   image: "projects/web-scrapping/8.png"
 ---
 
-### 🔗 [GitHub](https://github.com/JEETDESAI25/Scraping-tours-sql)
-
 ## Description
 
 - Engineered an automated web scraping system to track and monitor musical tour updates from band websites in real-time
@@ -20,3 +18,5 @@ cover:
 - Created a SQLite database to store and manage tour data, enabling quick comparison for detecting new updates
 - Built a robust error handling system to ensure continuous operation and reliable data collection
 - Demonstrated strong technical skills in web scraping, automation, database management, and email integration
+
+### 🔗 [GitHub](https://github.com/JEETDESAI25/Scraping-tours-sql)

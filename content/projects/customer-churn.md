@@ -10,8 +10,6 @@ cover:
   image: "projects/customer-churn/Customer-Churn.jpeg"
 ---
 
-### 🔗 [GitHub](https://github.com/JEETDESAI25/customer_churn_analysis)
-
 ## Description
 
 - Customer retention is a critical factor in business success, with understanding and predicting customer behavior being essential for maintaining a competitive edge.
@@ -19,3 +17,5 @@ cover:
 - The model generates binary predictions indicating whether a customer will churn, enabling proactive retention strategies. Our methodology involves three key phases:
 - comprehensive data preprocessing to ensure data quality, construction of three predictive models for comparative analysis, and in-depth analysis of results to develop targeted churn mitigation strategies.
 - This systematic approach provides valuable insights for reducing customer attrition and maintaining long-term business sustainability.
+
+### 🔗 [GitHub](https://github.com/JEETDESAI25/customer_churn_analysis)

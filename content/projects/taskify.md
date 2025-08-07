@@ -10,8 +10,6 @@ cover:
   image: "projects/todo-list-app/1.png"
 ---
 
-### 🔗 [GitHub](https://github.com/JEETDESAI25/Taskify)
-
 ## Description
 
 - A sleek, minimalist productivity app crafted to eliminate distractions and enhance focus on your most important tasks
@@ -21,3 +19,5 @@ cover:
 - Includes local storage integration to persist your tasks between sessions
 - Responsive design ensures a consistent experience across all devices
 - Clean and modern UI with smooth animations and transitions
+
+### 🔗 [GitHub](https://github.com/JEETDESAI25/Taskify)

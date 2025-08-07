@@ -27,3 +27,5 @@ cover:
 - Hosting & CI/CD: Managed by Vercel for seamless integration with Next.js.
 - Language: Developed in TypeScript for type safety and robustness.
 - Styling: Crafted with Tailwind CSS for a modern and responsive design.
+
+### 🔗 [GitHub](https://github.com/JEETDESAI25/unite)
