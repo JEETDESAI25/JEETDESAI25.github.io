@@ -1,7 +1,7 @@
 # baseURL: "https://jeetdesai25.github.io/"
 baseURL: "https://www.jeetdesai.com"
 languageCode: "en-us"
-title: "Jeet Desai"
+title: "~"
 theme: "PaperMod"
 
 menu:
@@ -59,10 +59,10 @@ params:
   profileMode:
     enabled: true
     title: " "
-    subtitle: "Hi, I'm Jeet - a Software Engineer and MS Computer Science Graduate. I specialize in full-stack development with experience in building scalable applications and machine learning solutions. I'm passionate about creating efficient tech solutions that make a real impact."
-    imageUrl: "images/home/IMG_6664-modified.png"
-    imageWidth: 350
-    imageHeight: 350
+    subtitle: "Hi, I'm Jeet, a Software Engineer passionate about building scalable, efficient, and AI-powered applications that enhance user experience and system performance."
+    # imageUrl: "images/home/IMG_6664-modified.png"
+    # imageWidth: 350
+    # imageHeight: 350
     imageOptimize: true
 
   # List View
