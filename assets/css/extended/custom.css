@@ -91,9 +91,9 @@ code {
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
   .profile-modern {
-    margin-top: -70px;
+    margin-top: -50px;
     align-items: flex-start;
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   .profile-container {
@@ -102,14 +102,15 @@ code {
 
   .terminal-header {
     font-size: 2.8rem;
+    margin-top: 20px;
     margin-bottom: 40px;
   }
 }
 
 @media (max-width: 480px) {
   .profile-modern {
-    margin-top: -60px;
-    padding-top: 80px;
+    margin-top: -40px;
+    padding-top: 120px;
   }
 
   .profile-container {
@@ -126,6 +127,7 @@ code {
 
   .terminal-header {
     font-size: 2.2rem;
+    margin-top: 20px;
     margin-bottom: 40px;
   }
 }
