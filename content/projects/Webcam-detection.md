@@ -1,7 +1,6 @@
 ---
 title: "Webcam-Detection"
 description: "Webcam detection system using computer vision technology to monitor and detect real-time object movements through webcam feed"
-dateString:
 draft: false
 tags: ["Python", "Computer Vision", "OpenCV"]
 showToc: false

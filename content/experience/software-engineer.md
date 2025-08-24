@@ -3,7 +3,7 @@ title: "Software Engineer"
 description: "Flinnt(Connects iConnect Pvt.Ltd.)"
 dateString: May 2020 - July 2022
 draft: true
-tags: ["Backend Development"]
+tags: ["Backend Development", "PHP", "MySQL"]
 showToc: false
 weight: 304
 ---

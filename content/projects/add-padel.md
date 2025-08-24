@@ -1,9 +1,8 @@
 ---
 title: "Add Padel Center"
 description: "Website for Kazakhstan's first padel center, Add-Padel, helping them promote their business and reach a broader audience."
-dateString:
 draft: false
-tags: ["JavaScript", "HTML/CSS"]
+tags: ["JavaScript", "HTML/CSS", "jQuery"]
 showToc: false
 weight: 203
 cover:
