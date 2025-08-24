@@ -3,7 +3,7 @@ title: "Software Engineer Graduate Assistant"
 description: "Loyola Marymount University"
 dateString: Sep 2022 - Jan 2023
 draft: false
-# tags: ["TypeScript", "NodeJS", "Express", "MongoDB", "AWS", "OAuth2.0"]
+tags: ["Web Scraping", "Data Management", "CRM"]
 showToc: false
 weight: 303
 ---

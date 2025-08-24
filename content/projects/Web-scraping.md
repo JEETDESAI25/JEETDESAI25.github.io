@@ -3,7 +3,7 @@ title: "Web Scraping Musical Event"
 description: "An automated web scraping system to track and monitor musical tour updates from band websites in real-time."
 dateString:
 draft: false
-# tags: ["DL", "AI", "Python", "PyTorch"]
+tags: ["Python", "Web Scraping", "Automation"]
 showToc: false
 weight: 205
 cover:

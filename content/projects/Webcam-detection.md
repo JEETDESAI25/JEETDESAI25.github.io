@@ -1,9 +1,9 @@
 ---
 title: "Webcam-Detection"
-description: "Dynamic webcam detection system using computer vision technology to monitor and detect real-time object movements through webcam feed"
+description: "Webcam detection system using computer vision technology to monitor and detect real-time object movements through webcam feed"
 dateString:
 draft: false
-# tags: ["Python", "PyTorch", "CNN", "LSTM", "CRNN", "DL", "AI"]
+tags: ["Python", "Computer Vision", "OpenCV"]
 showToc: false
 weight: 203
 cover:

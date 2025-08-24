@@ -3,7 +3,7 @@ title: "Software Engineer"
 description: "MealMate Inc"
 dateString: Feb 2025 - Present
 draft: false
-tags: []
+tags: ["Docker", "AWS", "Terraform", "React Native", "Flask", "DevOps"]
 showToc: false
 weight: 301
 ---

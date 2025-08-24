@@ -3,7 +3,8 @@ title: "Unite"
 description: "Unite is a social media platform dedicated to amplifying social justice causes and raising awareness about pressing global issues."
 dateString:
 draft: false
-# tags: ["React", "Web Development", "Frontend Development", "HTML", "CSS", "JavaScript"]
+tags:
+  ["React", "JavaScript", "TypeScript", "Firebase", "Tailwind CSS", "Next.js"]
 showToc: false
 weight: 202
 cover:

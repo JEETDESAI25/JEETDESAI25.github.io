@@ -3,7 +3,7 @@ title: "Taskify"
 description: "A distraction-free app to help you focus on creating and completing tasks."
 dateString:
 draft: false
-# tags: ["React", "Web Development", "Frontend Development", "HTML", "CSS", "JavaScript"]
+tags: ["TypeScript", "React"]
 showToc: false
 weight: 206
 cover:

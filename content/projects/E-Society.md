@@ -1,9 +1,9 @@
 ---
 title: "E-Society"
-description: "A mobile application designed to streamline the monthly bill payment process and provide reminders for meetings and event updates, enhancing the daily experiences of society, colony, or apartment residents."
+description: "Mobile application designed to streamline the monthly bill payment process and provide reminders for meetings and event updates, enhancing the daily experiences of society, colony, or apartment residents."
 dateString: ""
 draft: false
-# tags: ["TypeScript", "NodeJS", "Docker", "GitHub Actions"]
+tags: ["Java", "Mobile Development", "Android"]
 showToc: false
 weight: 205
 cover:
