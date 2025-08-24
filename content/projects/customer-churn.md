@@ -3,7 +3,7 @@ title: "Customer Churn Analysis"
 description: "Comprehensive analysis of customer churn in an Iranian Telecommunication company, using data preprocessing, model construction, and analysis to mitigate churn rate."
 dateString:
 draft: false
-tags: ["Python", "Machine Learning", "Data Analysis", "AWS"]
+tags: ["Python", "Machine Learning", "Data Analysis", "Kaggle"]
 weight: 201
 showToc: false
 cover:
