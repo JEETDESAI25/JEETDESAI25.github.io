@@ -22,7 +22,7 @@ weight: 301
 
 ### Description
 
-Developed full-stack solutions across Sold.com's comprehensive real estate platform serving agents, consumers, administrators, and sellers. Worked extensively throughout the codebase spanning multiple Next.js applications and NestJS microservices architecture.
+Developed full-stack solutions across Sold.com's real estate platform serving agents, consumers, administrators, and sellers. Worked extensively throughout the codebase spanning multiple Next.js applications and NestJS microservices architecture.
 
 **Key Technical Contributions:**
 
