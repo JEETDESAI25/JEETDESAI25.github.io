@@ -1,7 +1,6 @@
 ---
 title: "Software Engineer Research Assistant"
 description: "Loyola Marymount University"
-dateString: Jan 2023 - Jan 2025
 draft: false
 tags: ["Python", "Typescript", "React Native", "PostgreSQL", "Flask", "AWS"]
 showToc: false
