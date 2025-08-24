@@ -1,123 +1,143 @@
 ---
-title: "Understanding Git: A Simple Guide 🌱"
-date: 2024-03-12
-description: "A beginner-friendly guide to Git with practical examples and essential commands"
-# tags: ["git", "version-control", "programming", "developer-tools"]
+title: "Git"
+description: "Some useful Git commands."
+tags: ["git", "version-control", "developer-tools"]
 showToc: true
 showReadingTime: true
 weight: 1
 ---
 
-## Why Learn Git?
+Your commit message was wrong. You accidentally committed to the wrong branch. Your teammate's merge broke everything and you need to find exactly when. Here are the Git commands that can help.
 
-If you're writing code, Git is your best friend. It's like having a time machine for your code - you can save different versions, go back in time if something breaks, and collaborate with others seamlessly. Let me show you how I use Git every day and why it's simpler than you might think.
+## Fix Your Mistakes
 
-## Getting Started with Git
-
-Think of Git like taking snapshots of your code. Each snapshot (commit) saves your progress, and you can always return to it later. Here's what you need to know:
-
-### Basic Commands You'll Use Daily
+### Wrong commit message
 
 ```bash
-# Check what files have changed
-git status
+git commit --amend -m "Correct message"
+```
 
-# Save your changes
+Changes your last commit message. Only works if you haven't pushed yet.
+
+### Undo your last commit
+
+```bash
+git reset --soft HEAD~1
+```
+
+Removes the commit but keeps your changes staged. Your work is safe.
+
+### Wrong branch
+
+```bash
+git log --oneline -1        # Copy the commit hash
+git reset --hard HEAD~1     # Remove from current branch
+git checkout correct-branch
+git cherry-pick abc123      # Apply to correct branch
+```
+
+Moves your commit to where it belongs.
+
+### Committed too early
+
+```bash
+# Make more changes
 git add .
-git commit -m "Add new feature"
-
-# Share your changes
-git push
-
-# Get latest changes
-git pull
+git commit --amend --no-edit
 ```
 
-### Creating Your First Repository
+Adds new changes to your previous commit.
 
-  - Make a new folder for your project
-  - Open terminal in that folder
-  - Run these commands:
+## Clean Your History
+
+### Squash messy commits
 
 ```bash
-git init
-echo "# My Project" > README.md
-git add README.md
-git commit -m "First commit"
+git rebase -i HEAD~3
 ```
 
-## Working with Branches
+Opens editor. Change `pick` to `squash` for commits you want to combine.
 
-Branches let you work on new features without affecting the main code. It's like having a separate workspace:
+### Save work without committing
 
 ```bash
-# Create a new branch
-git checkout -b feature-login
-
-# Switch between branches
-git checkout main
+git stash                   # Save current changes
+git stash pop              # Get them back
+git stash list             # See all stashes
+git stash drop             # Delete a stash
 ```
 
-## Common Scenarios
+Perfect when you need to switch branches quickly.
 
-### Scenario 1: Saving Your Work
-
-When you've made changes you want to keep:
+### Find "lost" commits
 
 ```bash
-git add .
-git commit -m "Add login form"
-git push
+git reflog
 ```
 
-### Scenario 2: Getting Team Changes
+Shows everything you've done. Find your lost commit hash and `git checkout abc123`.
 
-Before starting new work:
+### Compare anything
 
 ```bash
-git pull
+git diff HEAD~2            # Changes in last 2 commits
+git diff main..feature     # Changes between branches
+git diff --name-only       # Just file names
+git diff --stat           # Summary stats
 ```
 
-### Scenario 3: Starting a New Feature
+## Keep Things Tidy
+
+### Clean up untracked files
 
 ```bash
-git checkout -b new-feature
-# Make your changes
-git add .
-git commit -m "Add new feature"
+git clean -n               # Preview what will be deleted
+git clean -fd              # Actually delete files and directories
 ```
 
-## Tips I Wish I Knew Earlier
+Removes files that aren't in Git. Use `-n` first to be safe.
 
-  - **Commit Often**: Small, regular commits are better than big, rare ones
-  - **Write Clear Messages**: Future you will thank present you
-  - **Pull Before Push**: Always get the latest changes first
-  - **Use Branches**: Keep your work separate and organized
+### Better branch management
 
-## Quick Reference Guide
+```bash
+git branch -d feature      # Safe delete (only if merged)
+git branch -D feature      # Force delete
+git remote prune origin    # Remove stale remote branches
+```
 
-Save this for later:
+### See what happened
 
-| What You Want | Command to Use                             |
-| ------------- | ------------------------------------------ |
-| Check status  | `git status`                               |
-| Save changes  | `git add .` then `git commit -m "message"` |
-| Get updates   | `git pull`                                 |
-| Share code    | `git push`                                 |
-| New branch    | `git checkout -b branch-name`              |
+```bash
+git log --oneline --graph  # Visual commit history
+git log --since="2 weeks ago" --author="yourname"
+git show HEAD              # Full details of last commit
+```
 
-## Next Steps
+## Collaboration
 
-Start small:
+### Undo public commits safely
 
-  - Create a test repository
-  - Make some changes
-  - Commit them
-  - Create a branch
-  - Make more changes
+```bash
+git revert abc123          # Creates new commit that undoes abc123
+```
 
-Remember: Git becomes easier with practice. Don't worry about memorizing commands - focus on understanding the basic workflow, and the rest will come naturally.
+Never use `reset` on published commits. `revert` is safe for shared history.
+
+### Apply commits from other branches
+
+```bash
+git cherry-pick abc123
+```
+
+Copy fixes between branches without merging everything.
+
+### Clean merge
+
+```bash
+git merge --squash feature # All changes as single commit
+git commit -m "Add feature"
+```
+
+Keeps main branch history clean.
 
 ---
-
-Have questions? Feel free to reach out. Happy coding! 🚀
