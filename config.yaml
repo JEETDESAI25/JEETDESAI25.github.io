@@ -75,7 +75,7 @@ params:
     responsiveImages: false
     linkFullImages: false
 
-  #ERROR deprecated: .Site.Social was deprecated in Hugo v0.124.0 and will be removed in Hugo 0.142.0. Implement taxonomy 'social' or use .Site.Params.Social instead.
+  # Modern social configuration (replaces deprecated .Site.Social)
   Social:
     email: "mail@jeetdesai.com"
     linkedin: "jeet-desai-"
@@ -118,20 +118,30 @@ markup:
     renderer:
       unsafe: true
 
-# Image processing
+# Image processing with modern formats
 images:
   process: true
-  formats: ["webp", "original"]
+  formats: ["avif", "webp", "original"]
   quality: 85
-  sizes: [360, 480, 720, 1080]
+  sizes: [360, 480, 720, 1080, 1440]
   loading: lazy
 
-# Cache settings
+# Enhanced cache and security settings
 server:
   headers:
     - for: "/**"
       values:
         Cache-Control: "public, max-age=31536000"
+        X-Frame-Options: "DENY"
+        X-Content-Type-Options: "nosniff"
+        Referrer-Policy: "strict-origin-when-cross-origin"
     - for: "/*.html"
       values:
         Cache-Control: "public, max-age=0, must-revalidate"
+        Content-Security-Policy: "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; img-src 'self' data: https:; font-src 'self' data:"
+    - for: "/*.css"
+      values:
+        Cache-Control: "public, max-age=31536000"
+    - for: "/*.js"
+      values:
+        Cache-Control: "public, max-age=31536000"
