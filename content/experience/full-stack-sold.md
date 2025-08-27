@@ -12,8 +12,8 @@ tags:
     "MongoDB",
     "PostgreSQL",
     "AWS",
-    "Stripe",
     "Microservices",
+    "Monorepo",
     "ETL",
   ]
 showToc: false
@@ -22,33 +22,40 @@ weight: 301
 
 ### Description
 
-Developed full-stack solutions across Sold.com's real estate platform serving agents, consumers, administrators, and sellers. Worked extensively throughout the codebase spanning multiple Next.js applications and NestJS microservices architecture.
+Developed full-stack solutions across Sold.com's real estate platform - a comprehensive monorepo architecture serving agents, consumers, administrators, and sellers through 6 integrated applications and 15+ microservices.
 
 **Key Technical Contributions:**
 
+**Monorepo Architecture & Multi-Application Development:**
+
+- Contributed to monorepo architecture managing 6 main applications with a unified shared component library ecosystem
+- Built and maintained the react-core-v3 shared component library, serving multiple applications with TypeScript, Rollup bundling, and comprehensive Storybook documentation
+- Worked on cross-application dependencies and coordinated seamless deployments across development, UAT, and production environments
+
 **Frontend Development:**
 
-- Collaborated closely with product managers to translate business requirements into technical solutions
-- Implemented UI/UX improvements across agent portals, admin dashboards, and consumer-facing applications
-- Worked on multiple Next.js applications (v8-v13) with server-side rendering, static generation, and advanced optimization techniques.
-- Built React applications with Redux state management, Redux Saga for async operations, and Context API for component communication
-- Built responsive components using Material-UI, TailwindCSS and custom SCSS architectures
+- Developed applications across the Next.js ecosystem (versions 8-15), participating in strategic migration planning for legacy codebases
+- Built React applications spanning versions 16-19, implementing modern concurrent features and performance optimizations
+- Implemented state management solutions using Redux, Redux Saga, Redux Toolkit, and Context API patterns
+- Built responsive, accessible components with Material-UI (v3-v5), TailwindCSS, Headless UI, and custom SCSS architectures
+- Implemented server-side rendering, static generation, and incremental static regeneration (ISR) strategies
 
-**Backend Development:**
+**Backend Development & Microservices:**
 
-- Contributed to microservices ecosystem with 15+ independent services including consumer management, agent operations, email processing, SMS communications, and automated fulfillment systems
-- Designed and implemented ETL processes for Stripe payment data integration
-- Worked with multi-database solutions using MongoDB for business logic, PostgreSQL for transactional data, and Redis for high-performance caching
-- Collaborated with infrastructure teams to optimize deployment processes and system reliability
-- Built enterprise-grade APIs following OpenAPI specifications with comprehensive Swagger documentation
+- Contributed to a comprehensive microservices ecosystem with 15+ NestJS services handling agent management, consumer processing, email campaigns, SMS communications, payment processing, Salesforce integration, and automated fulfillment
+- Built enterprise-grade APIs with comprehensive OpenAPI/Swagger documentation and TypeScript DTOs
+- Participated in event-driven architecture implementation using Redis queues, inter-service communication, and distributed patterns
+- Developed ETL processes for multi-source data integration including Stripe payments, Salesforce CRM, and real estate data
+- Worked with polyglot persistence strategies using MongoDB (Mongoose) for business logic, PostgreSQL (TypeORM) for transactional data, Redis for caching, and Redshift (KnexJS) for analytics
 
-**Tech-Stack:**
+**Tech Stack Summary:**
 
-- Frontend: Next.js, React, TypeScript, Material-UI, TailwindCSS
-- Backend: NestJS, Node.js, TypeScript, MongoDB, PostgreSQL, Redis
-- Cloud & Services: AWS (ECS, EKS, Lambda, CloudWatch, Parameter Store, S3, CloudFront), Docker, Jenkins
+- Frontend: Next.js (8-15), React (16-19), TypeScript, Redux/RTK, Material-UI (v3-v5), TailwindCSS, Headless UI
+- Backend: NestJS, Node.js, Express, TypeScript
+- Databases: MongoDB (Mongoose), PostgreSQL (TypeORM), Redis, Redshift (KnexJS)
+- Cloud & Infrastructure: AWS (ECS, Lambda, S3, CloudWatch, Amplify, Cognito, Parameter Store, CloudFront), Docker
+- External APIs: Salesforce, Stripe, Twilio, OpenAI, Google APIs, Contentful
+- Testing: Jest, Playwright, Cypress, React Testing Library
+- DevOps: Jenkins, AWS CodeBuild, Bitbucket, multi-environment CI/CD
 - Version Control: Git (Bitbucket)
-- Testing: Jest, Playwright, Cypress, React Testing Library, and automated testing pipelines
-- Code Quality: ESLint, Prettier, Husky, and automated code review tools
-- Documentation: Storybook, Swagger/OpenAPI, and comprehensive technical documentation
-- Architecture: Microservices, event-driven patterns, API gateways, real-time features
+- Architecture: Microservices, monorepo, event-driven patterns, API gateways, real-time WebSocket features
