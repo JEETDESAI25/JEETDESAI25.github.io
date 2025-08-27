@@ -237,7 +237,6 @@ code {
   font-size: 0.9rem;
   color: var(--content);
   opacity: 0.7;
-  border-top: 1px solid var(--border);
 }
 
 .footer span {

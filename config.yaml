@@ -126,7 +126,8 @@ images:
   sizes: [360, 480, 720, 1080, 1440]
   loading: lazy
 
-# Enhanced cache and security settings
+# Enhanced cache and security settings for the LOCAL HUGO SERVER.
+# NOTE: These headers are not applied to the GitHub Pages server.
 server:
   headers:
     - for: "/**"
