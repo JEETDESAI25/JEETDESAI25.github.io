@@ -47,12 +47,22 @@ Developed full-stack solutions across Sold.com's real estate platform - a monore
 
 **Tech Stack Summary:**
 
-- Frontend: Next.js (8-15), React (16-19), TypeScript, Redux/RTK, Material-UI (v3-v5), TailwindCSS, Headless UI
+- Frontend: Next.js (8-15), React (16-19), TypeScript, Redux/RTK, Material-UI (v3-v5), TailwindCSS, Headless UI, SCSS/LESS
 - Backend: NestJS, Node.js, Express, TypeScript
 - Databases: MongoDB (Mongoose), PostgreSQL (TypeORM), Redis, Redshift (KnexJS)
+- CMS: Contentful (headless CMS)
 - Cloud & Infrastructure: AWS (ECS, Lambda, S3, CloudWatch, Amplify, Cognito, Parameter Store, CloudFront), Docker
-- External APIs: Salesforce, Stripe, Twilio, OpenAI, Google APIs, Contentful
+- External APIs: Salesforce, Stripe, Twilio, OpenAI, Google APIs (Maps, Calendar, Analytics), Contentful CMS
+- Authentication: AWS Amplify/Cognito, NextAuth v4, JWT
 - Testing: Jest, Playwright, Cypress, React Testing Library
-- DevOps: Jenkins, AWS CodeBuild, Bitbucket, multi-environment CI/CD
+- Build Tools: Rollup, Webpack, Babel, ESLint, Prettier
+- State Management: Redux, Redux Saga, Redux Thunk, Context API
+- UI Libraries: Material-UI, React Icons, Recharts, React Calendar, React Hook Form, Formik
+- Development Tools: Storybook, Husky, Lint-staged, Nodemon
+- Queue & Jobs: Bull (Redis queues), NestJS Schedule, Cron
+- Documentation: Swagger/OpenAPI, Storybook
+- DevOps: Jenkins, AWS CodeBuild, Bitbucket, Docker, multi-environment CI/CD
 - Version Control: Git (Bitbucket)
-- Architecture: Microservices, monorepo, event-driven patterns, API gateways, real-time WebSocket features
+- Monitoring: AWS CloudWatch, Application logging
+- Package Management: npm, npm link (for shared library)
+- Architecture: Microservices, event-driven patterns, API gateways, real-time WebSocket features
