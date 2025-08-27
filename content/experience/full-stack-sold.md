@@ -22,14 +22,12 @@ weight: 301
 
 ### Description
 
-Developed full-stack solutions across Sold.com's real estate platform - a comprehensive monorepo architecture serving agents, consumers, administrators, and sellers through 6 integrated applications and 15+ microservices.
+Developed full-stack solutions across Sold.com's real estate platform - a monorepo architecture serving agents, consumers, administrators, and sellers through 6 integrated applications and 15+ microservices.
 
 **Key Technical Contributions:**
 
-**Monorepo Architecture & Multi-Application Development:**
-
 - Contributed to monorepo architecture managing 6 main applications with a unified shared component library ecosystem
-- Built and maintained the react-core-v3 shared component library, serving multiple applications with TypeScript, Rollup bundling, and comprehensive Storybook documentation
+- react-core-v3 shared component library, serving multiple applications with TypeScript, Rollup bundling, and comprehensive Storybook documentation
 - Worked on cross-application dependencies and coordinated seamless deployments across development, UAT, and production environments
 
 **Frontend Development:**
@@ -38,7 +36,6 @@ Developed full-stack solutions across Sold.com's real estate platform - a compre
 - Built React applications spanning versions 16-19, implementing modern concurrent features and performance optimizations
 - Implemented state management solutions using Redux, Redux Saga, Redux Toolkit, and Context API patterns
 - Built responsive, accessible components with Material-UI (v3-v5), TailwindCSS, Headless UI, and custom SCSS architectures
-- Implemented server-side rendering, static generation, and incremental static regeneration (ISR) strategies
 
 **Backend Development & Microservices:**
 
