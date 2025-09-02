@@ -4,7 +4,7 @@ description: "Mobile application designed to streamline the monthly bill payment
 draft: false
 tags: ["Java", "Mobile Development", "Android"]
 showToc: false
-weight: 205
+weight: 209
 cover:
   image: "projects/E-Society/images.jpeg"
 ---

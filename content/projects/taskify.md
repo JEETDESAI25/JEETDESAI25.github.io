@@ -4,7 +4,7 @@ description: "A distraction-free app to help you focus on creating and completin
 draft: false
 tags: ["TypeScript", "React"]
 showToc: false
-weight: 206
+weight: 210
 cover:
   image: "projects/todo-list-app/1.png"
 ---

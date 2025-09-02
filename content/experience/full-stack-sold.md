@@ -20,7 +20,7 @@ showToc: false
 weight: 301
 ---
 
-### Description
+**Description**
 
 Developed full-stack solutions across Sold.com's real estate platform - a monorepo architecture serving agents, consumers, administrators, and sellers through 6 integrated applications and 15+ microservices.
 
@@ -66,3 +66,5 @@ Developed full-stack solutions across Sold.com's real estate platform - a monore
 - Monitoring: AWS CloudWatch, Application logging
 - Package Management: npm, npm link (for shared library)
 - Architecture: Microservices, event-driven patterns, API gateways, real-time WebSocket features
+
+### 🔗 [GitHub](https://github.com/JEETDESAI25/VoiceFlow)

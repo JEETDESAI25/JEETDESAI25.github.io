@@ -4,7 +4,7 @@ description: "Website for Kazakhstan's first padel center, Add-Padel, helping th
 draft: false
 tags: ["JavaScript", "HTML/CSS", "jQuery"]
 showToc: false
-weight: 203
+weight: 205
 cover:
   image: "projects/add-padel/add-padel-logo.png"
 ---

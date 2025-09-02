@@ -4,7 +4,7 @@ description: "An automated web scraping system to track and monitor musical tour
 draft: false
 tags: ["Python", "Web Scraping", "Automation"]
 showToc: false
-weight: 205
+weight: 207
 cover:
   image: "projects/web-scrapping/8.png"
 ---

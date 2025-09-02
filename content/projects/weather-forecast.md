@@ -4,7 +4,7 @@ description: "Dynamic weather forecast application featuring real-time data visu
 draft: false
 tags: ["OpenWeatherMap", "API Integration", "Data Visualization", "Python"]
 showToc: false
-weight: 204
+weight: 208
 cover:
   image: "projects/weather-forecast/16.png"
 ---

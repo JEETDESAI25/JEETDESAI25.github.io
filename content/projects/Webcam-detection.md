@@ -4,7 +4,7 @@ description: "Webcam detection system using computer vision technology to monito
 draft: false
 tags: ["Python", "Computer Vision", "OpenCV"]
 showToc: false
-weight: 203
+weight: 206
 cover:
   image: "projects/Webcam-detection/11.png"
 ---
