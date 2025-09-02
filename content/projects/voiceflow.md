@@ -24,7 +24,7 @@ Architected and developed VoiceFlow AI Demo Platform - full-stack application de
 - Implemented dual-mode demo system: traditional form submission and live Voice AI call initiation with phone-only requirements
 - Designed end-to-end data flow from frontend forms through API routes to database persistence with real-time webhook updates
 
-Frontend Architecture (Next.js 15):
+Frontend Architecture (Next.js):
 
 - Leveraged cutting-edge Next.js 15 App Router with React 19, implementing advanced server/client component patterns for optimal performance
 - Built Backend-for-Frontend (BFF) architecture using Next.js API routes for secure external API integration and data orchestration
