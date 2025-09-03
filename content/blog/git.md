@@ -4,7 +4,7 @@ description: "Some useful Git commands."
 tags: ["git", "version-control", "developer-tools"]
 showToc: true
 showReadingTime: true
-weight: 1
+weight: 9
 ---
 
 Your commit message was wrong. You accidentally committed to the wrong branch. Your teammate's merge broke everything and you need to find exactly when. Here are the Git commands that can help.
