@@ -2,7 +2,14 @@
 title: "Weather Forecast App"
 description: "Dynamic weather forecast application featuring real-time data visualization for any global city's 5-day weather outlook."
 draft: false
-tags: ["OpenWeatherMap", "API Integration", "Data Visualization", "Python"]
+tags:
+  [
+    "OpenWeatherMap",
+    "API Integration",
+    "Data Visualization",
+    "Python",
+    "Streamlit",
+  ]
 showToc: false
 weight: 208
 cover:
