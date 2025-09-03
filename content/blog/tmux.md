@@ -1,6 +1,6 @@
 ---
 title: "Tmux"
-description: "Control your terminal sessions"
+description: "Best way to manage terminal sessions"
 draft: false
 tags: ["tmux", "terminal", "session-management", "developer-tools"]
 showToc: true
