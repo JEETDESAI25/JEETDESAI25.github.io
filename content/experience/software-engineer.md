@@ -1,8 +1,8 @@
 ---
 title: "Software Engineer"
-description: "Flinnt(Connects iConnect Pvt.Ltd.)"
+description: "Flinnt"
 draft: true
-tags: ["Backend Development", "PHP", "MySQL"]
+tags: ["AWS", "PHP", "MySQL", "Javascript", "jQuery"]
 showToc: false
 weight: 305
 ---
