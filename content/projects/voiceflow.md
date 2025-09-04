@@ -21,16 +21,16 @@ VoiceFlow AI Demo Platform - a full-stack application that demonstrates the powe
 **What it does:**
 Users can experience Voice AI in two ways:
 
-1. **Traditional Demo Request**: Fill out a form to schedule a Voice AI demonstration
-2. **Live Voice AI Call**: Enter just a phone number and immediately receive an AI-powered phone call
+- **Traditional Demo Request**: Fill out a form to schedule a Voice AI demonstration
+- **Live Voice AI Call**: Enter just a phone number and immediately receive an AI-powered phone call
 
 **How it works:**
 
-1. **User Input**: User submits phone number through clean, responsive web interface
-2. **AI Activation**: System instantly triggers Voice AI service to place an intelligent phone call
-3. **Real-Time Processing**: Voice AI conducts conversation, processes speech, and generates insights
-4. **Webhook Integration**: Real-time webhook receives call data, transcripts, and analysis results
-5. **Data Persistence**: All conversation data and insights are stored and made accessible through admin dashboard
+- **User Input**: User submits phone number through clean, responsive web interface
+- **AI Activation**: System instantly triggers Voice AI service to place an intelligent phone call
+- **Real-Time Processing**: Voice AI conducts conversation, processes speech, and generates insights
+- **Webhook Integration**: Real-time webhook receives call data, transcripts, and analysis results
+- **Data Persistence**: All conversation data and insights are stored and made accessible through admin dashboard
 
 **Key Features:**
 
