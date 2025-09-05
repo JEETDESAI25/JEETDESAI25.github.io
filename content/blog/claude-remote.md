@@ -27,9 +27,9 @@ Ever wanted to check on your Claude Code sessions while you're grabbing coffee? 
 ## What We're Using
 
 - **Tailscale**: Secure networking to reach your Mac from anywhere
-- **SSH + Mosh**: Resilient terminal connections that handle network changes
+- **SSH Keys + Mosh**: Resilient terminal connections that handle network changes
 - **tmux**: Session persistence so Claude keeps running even if you disconnect
-- **Blink Shell**: Professional terminal app for iOS and iPadOS
+- **Blink Shell**: Terminal app for iOS and iPadOS
 
 The workflow: Start Claude Code in a tmux session on your Mac, connect via Mosh from your phone, and monitor/control everything remotely.
 
@@ -44,7 +44,7 @@ Tailscale creates a secure private network between your devices. Think of it as 
 
 ### On your Mac:
 
-1. Download [Tailscale](https://taiscale.com/download/mac) and install
+1. Download [Tailscale](https://tailscale.com/download/mac) and install
 2. Sign up and connect to your tailnet
 3. Note your machine name (usually something like `macbook-yourname`)
 
@@ -64,7 +64,7 @@ I'm using **Blink Shell** (iOS Only) as it seems best option for Apple ecosystem
 
 1. Install Blink Shell
 2. Go to Settings → Keys
-3. Generate a new key using the Secure Enclave feature
+3. Generate a new key using the **Secure Enclave feature**
 4. Copy the public key
 
 ### Add the key to your Mac:
@@ -161,26 +161,30 @@ claude code
 # Press: Ctrl+B(Prefix), then D
 ```
 
-### Checking back in:
+### Accessing Your Session from Anywhere
+
+Now your `claude code` session is running persistently on your Mac inside `tmux`. You can now disconnect and reconnect from any of your devices without interrupting the process.
+
+**From your iPhone/iPad:**
+Open Blink Shell and connect. Mosh will often automatically resume your last session. If not, just re-attach:
 
 ```bash
-# Connect from anywhere
+# Connect via Mosh
 mosh yourusername@100.xxx.xxx.xxx
 
-# Reattach to your session
+# Re-attach to the tmux session
 tmux attach -t claude
-
-# Claude Code is still running!
 ```
 
-## Tip
-
-### Keep Your Mac Awake
+**From your Mac:**
+Open your local terminal. You don't need to `mosh` since you're already on the machine. Just attach to the session directly:
 
 ```bash
-# Prevent sleep while running long tasks
-sudo pmset -c sleep 0  # Only when plugged in
+# Attach to the running session
+tmux attach -t claude
 ```
+
+You are now looking at the exact same terminal screen from two different devices. Any command you type on one will appear on the other. This is the power of `tmux` combined with `mosh` and `tailscale`. Claude Code is still running, waiting for your next instruction, no matter where you are.
 
 ## Troubleshooting
 
@@ -204,7 +208,7 @@ sudo pmset -c sleep 0  # Only when plugged in
 
 This setup has transformed how I work with Claude Code. I can:
 
-- Start a complex refactoring task before heading out
+- Start a refactoring task before heading out
 - Check progress from the gym
 - Provide guidance when Claude hits a roadblock
 - Resume work from a different location seamlessly
@@ -213,7 +217,7 @@ The key insight: Claude Code works best with human guidance, but that guidance d
 
 ## Wrapping Up
 
-Setting up remote access to Claude Code takes some initial configuration, but the freedom it provides is worth it. You get the power of AI-assisted development without being tied to your desk.
+Setting up remote access to Claude Code takes some initial configuration, but the freedom it provides is worth it.
 
 The combination of Tailscale, Mosh, and tmux creates a robust foundation for remote development work – not just for Claude Code, but for any long-running terminal tasks.
 
