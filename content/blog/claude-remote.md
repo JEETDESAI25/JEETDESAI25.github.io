@@ -35,7 +35,7 @@ The workflow: Start Claude Code in a tmux session on your Mac, connect via Mosh 
 
 ## Prerequisites
 
-- Mac with Claude Code installed
+- Mac with Claude Code or your choice of AI Assistant installed
 - iPhone/iPad with decent data/WiFi
 
 ## Step 1: Install Tailscale
