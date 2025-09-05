@@ -18,6 +18,8 @@ showReadingTime: true
 weight: 1
 cover:
   image: "blogs/claude-remote/blink-shell.webp"
+images:
+  - "blogs/claude-remote/vibes.webp"
 ---
 
 # Remote Claude Code: Control Your AI Assistant from Anywhere
