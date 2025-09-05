@@ -17,7 +17,7 @@ showToc: true
 showReadingTime: true
 weight: 1
 cover:
-  image: "blogs/claude-remote/vibes.webp"
+  image: "blog/claude-remote/vibes.webp"
 ---
 
 # Remote Claude Code: Control Your AI Assistant from Anywhere
@@ -219,4 +219,4 @@ The combination of Tailscale, Mosh, and tmux creates a robust foundation for rem
 
 Try it out and let me know how it works for you. Happy coding!
 
-![Blink-shell UI](/blogs/claude-remote/blink-shell.webp)
+![Blink-shell UI](/blog/claude-remote/blink-shell.webp)
