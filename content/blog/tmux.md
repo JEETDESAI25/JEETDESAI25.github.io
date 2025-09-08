@@ -1,6 +1,6 @@
 ---
 title: "Tmux"
-description: "Best way to manage terminal sessions"
+description: "Terminal multiplexer for persistent sessions, multi-window organization, and seamless remote development workflows"
 draft: false
 tags: ["tmux", "terminal", "session-management", "developer-tools"]
 showToc: true
