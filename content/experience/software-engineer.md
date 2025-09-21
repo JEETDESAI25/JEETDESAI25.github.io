@@ -1,15 +1,25 @@
 ---
 title: "Software Engineer"
 description: "Flinnt"
-draft: true
-tags: ["AWS", "PHP", "MySQL", "Javascript", "jQuery"]
+draft: false
+tags:
+  [
+    "AWS",
+    "PHP",
+    "MySQL",
+    "Javascript",
+    "jQuery",
+    "Node.js",
+    "Express.js",
+    "React",
+  ]
 showToc: false
 weight: 305
 ---
 
 ## Description
 
-- Developed and maintained robust backend services that ensured secure user management for over 10,000 users, utilizing industry-standard authentication and encryption techniques.
+- Developed and maintained robust backend services that ensured secure user management for over 50,000 users, utilizing industry-standard authentication and encryption techniques.
 - Designed, built, and documented RESTful APIs to streamline integrations and boost overall system efficiency by 40%.
 - Implemented comprehensive monitoring and logging strategies, reducing production incidents by 35%.
 - Optimized database performance through efficient query design and connection management, achieving 45% faster response times.
